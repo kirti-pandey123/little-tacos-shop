@@ -1,0 +1,219 @@
+* {
+    text-align: center;
+    background-color: #e6cce6f7;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1 {
+    color: #1e09bb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    
+}
+nav,
+ul,
+li,
+a {
+    color: #201335;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    margin: 0 15px;
+    line-height: 1.5;
+    
+}
+h1::first-letter {
+    color: #3F8EFC;
+    
+}
+.hours {
+    color: #2E294E;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background: #ffffffcc;
+    border-radius: 12px;
+    width: fit-content;
+    margin: auto;
+    
+
+}
+dt {
+    color: #596ab7;
+    font-size: larger;
+    font-family: Times New Roman;
+    font-weight: bold;
+}
+dd {
+    color: #171123;
+    font-weight: bold;
+}
+.center-img {
+    display: block;
+    margin: auto;
+}
+.lts {
+    font-size: 20px;
+    color: #590925;
+    font-weight: bold;
+}
+.aboutLts {
+    color: darkblue;
+}
+h3 {
+    color: #101D42;
+    font-weight: bolder;
+}
+details {
+    color: #432323;
+    font-weight: bolder;
+}
+cite>a {
+    color: #D92C54;
+}
+table {
+    margin: auto;
+}
+caption {
+    color: #8F0177 ;
+    font-weight: bold;
+}
+.back a {
+    color: #0F3460;
+    font-weight: bold;
+
+}
+.contact {
+    color:#26CCC2;
+}
+.contact::first-letter {
+    color: #05ec3b;
+}
+.form {
+    color: rgb(236, 8, 73);
+}
+legend {
+    color: darkblue;
+}
+label {
+    color: rgb(153, 16, 16);
+    font-weight: bold;
+}
+.location {
+    color: #1e09bb;
+}
+address {
+    color: black;
+    font-weight: bold;
+}
+.shop {
+    color: red;
+
+}
+.shop::first-letter {
+    color: #00224D;
+}
+.paragraph:nth-of-type(2n) {
+    color: black;
+}
+nav a:hover {
+    color: #d51b62;
+    text-decoration: black underline;
+}
+nav a:active {
+    color: blue;
+}
+.lts:hover {
+    color: rgb(242, 101, 0);
+}
+details:hover{
+    color: #e01919;
+}
+.back a:hover {
+    color: forestgreen;
+}
+.back a:active {
+    color: rgb(95, 3, 3);
+}
+input[type=text]:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 2s;
+    
+}
+textarea {
+    border: 5px solid black;
+    border-radius: 8px;
+    transition: background-color 1s;
+    box-shadow: 0 2px 8px goldenrod;
+}
+textarea:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 8px black;
+    
+}
+address:hover {
+    color: rgb(255, 5, 55);
+}
+button {
+    font-weight: bold;
+    border: 5px solid black;
+    background-color: green;
+    color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 12px;
+    margin: 0 10px;
+    transition: background-color 1s;
+    transition: all 1s ease;
+    box-shadow: 0 4px 10px black;
+}
+button:hover {
+    color: black;
+    background-color: rgb(100, 100, 172);
+    border-radius: 50%;
+    box-shadow: 0 2px 6px black;
+}
+button:active {
+    background-color: rgb(191, 29, 129);
+    color: black;
+}
+
+input[type="text"] {
+    border: 3px solid black;
+    border-radius: 6px;  
+    box-shadow: 0 1px 4px black;   
+ }
+ input[type="text"]:hover {
+    box-shadow: 0 1px 4px black;
+ }
+ form {
+    background: #ffffffcc;
+    padding: 20px;
+    border-radius: 12px;
+    transition: background-color 2s;
+    box-shadow: 2px 2px 6px black;
+}
+img {
+    border-radius: 12px;
+    box-shadow: 0 0 8px black
+}
+img:hover {
+    background-color: rgb(241, 159, 173);
+}
+td, th {
+   padding: 10px 15px;
+}
+.menu-box {
+    background-color: #3f4a6b;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 1px 6px blue;
+}
